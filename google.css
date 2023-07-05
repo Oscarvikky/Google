@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dad{
+    
+}
+.nav{
+    display: flex;
+    position: absolute;
+    right: 0;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 20%;
+    align-items: center;
+}
+.a5 button{
+    width: 40px;
+    border: 0;
+    background: none;
+    height: 20px;
+    font-weight: 900;
+}
+.a2{
+    width: 0px;
+    height: 1px;
+    border: 1px;
+    background-color: black;
+}
+.a1:hover .a2{
+    width: 40px;
+}
+.a4{
+     width: 0px;
+    height: 1px;
+    border: 1px;
+    background-color: black;
+}
+.a3:hover .a4{
+    width: 45px;
+}
+.a6{
+    position: absolute;
+    width: 110%;
+    background-color: rgb(44, 37, 37);
+     right: 70px ;
+     top: 60px;
+     height: 60vh;
+     border-radius: 35px;
+     overflow: auto;
+}
+.drop{
+    background-color: black;
+    margin: 8px;
+    border-radius: 35px;
+    height: 90vh;
+}
+.row1{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.row1b{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1 img{
+    margin-top: 20px;
+}
+.t{
+    margin-left: px;
+}
+.tt{
+    margin-left: px;
+}
+.werey img{
+    width: 30px;
+    margin-top: 30px;
+}
+.new{
+margin-top: 10px;
+}
+.row2{ color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;}
+.row2 img{
+    margin-left: 20px;
+}
+
+.row2b{
+     color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: ;
+}
+.u{
+    margin-left: 20px;
+}
+.uu{
+
+}
+.row2b p{
+    margin-left: 20px;
+}
+.row3{
+color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.row3b{
+color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.t2{
+    margin-left: 25px;
+}
+.t3{margin-left: px;}
+.row4{
+color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.row4b{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.rr{
+    margin-left: 32px;
+}
+.rr2{
+    margin-left: 5px;
+}
+.r{
+    margin-left: 20px;
+}
+.row5{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.row5b{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.s{
+    margin-left: 20px;
+}
+.ss{
+    margin-left: 30px;
+}
+.row6{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.row6b{color: white;
+ margin-left: 40px;
+}
