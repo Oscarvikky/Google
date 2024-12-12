@@ -4,8 +4,10 @@
     padding: 0;
 }
 
-.dad{
-    
+body{
+    background-image: url(car.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .nav{
     display: flex;
@@ -16,6 +18,10 @@
     width: 20%;
     align-items: center;
 }
+.a1{
+    color: white;
+}
+
 .a5 button{
     width: 40px;
     border: 0;
@@ -27,16 +33,23 @@
     width: 0px;
     height: 1px;
     border: 1px;
-    background-color: black;
+    background-color:white;
+}
+.a3{
+    color: white;
 }
 .a1:hover .a2{
     width: 40px;
+    
 }
 .a4{
      width: 0px;
     height: 1px;
     border: 1px;
-    background-color: black;
+    background-color: white;
+}
+.a5 button{
+    color: white;
 }
 .a3:hover .a4{
     width: 45px;
@@ -50,12 +63,13 @@
      height: 60vh;
      border-radius: 35px;
      overflow: auto;
+     display: none;
 }
 .drop{
     background-color: black;
-    margin: 8px;
+    margin: 15px;
     border-radius: 35px;
-    height: 90vh;
+    height: 300vh;
 }
 .row1{
     color: white;
@@ -169,4 +183,213 @@ align-items: center;
 }
 .row6b{color: white;
  margin-left: 40px;
+}
+.row7{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row7b{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    color: white;
+}
+.q{
+    margin-left: 20px;
+}
+.qq{margin-left: 15px;}
+
+.row8{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+
+}
+.box {
+    text-align: center;
+}
+.box button{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50px;
+    color:lightskyblue;
+    border: 1px solid white;
+    
+
+}
+.a5:focus-within .a6{
+    display: block;
+}
+.btn{
+    background: none;
+    border: 0;
+}
+.big{
+    width: 140%;
+    height: 45vh;
+    background-color: rgb(60, 59, 59);
+    position: absolute;
+    right: 30px;
+    border-radius: 40px;
+    display: none;
+
+}
+.content{
+    background-color: black;
+    height: 28vh;
+    margin: 10px;
+    border-radius: 30px;
+}
+.login{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.login img{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.tired{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.gohome{
+    text-align: center;
+    margin-top: 30px;
+}
+.gohome button{
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.www{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+ .ww{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+ }
+ .tyyy{
+    display: flex;
+    align-items: center;
+ }
+ .ui{color: white;
+    display: flex;
+    align-items: center;;
+
+}
+.uii{
+    margin-left: 90px;
+    font-size: 30px;
+}
+.uiii{
+    margin-left: 70px;
+    font-size: 30px;
+}
+.rtd{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+}
+.a7:focus-within .big{
+    display: block;
+}
+
+.hr2{
+    border: 1px solid  rgb(60, 59, 59);;
+}
+.last{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+.center{
+    /* text-align: center; */
+    margin-left: 550px;
+}
+.new img{
+    margin-top: 200px;
+}
+.jik{
+    position: relative;
+
+
+}
+.jik input{
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: white;
+    width: 500px;
+height: 50px;
+    
+}
+.load{
+    position: absolute;
+    width: 50%;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: white;
+    left: 10px;
+    display: none;
+}
+.load p{
+    margin-top: 40px;
+    margin-left: 40px;
+
+    color: black;
+}
+.jik:focus-within .load{
+    display: block;
+}
+.last button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    color: lightskyblue;
+    background-color: black;
+    border: 0;
+}
+.fb{
+    
+}
+.sec{
+    margin: 20px;
+    display: flex;
+    width: 50%;
+
+    justify-content: space-evenly;
+    
+}
+.bet{display: flex;
+
+}
+.bet2{
+    display: none;
+   color: white;
+   
+    
+}
+.bet:hover .bet2{
+    display: block;
+}
+
+.thrd{
+    display: flex;
+    color: white;
+    
+    width: 50%;
+    justify-content:space-evenly;
+    margin-top: -20px;
+    margin-left: 20px;
+
 }
